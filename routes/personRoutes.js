@@ -78,6 +78,7 @@ router.delete('/:id', async (req, res) => {
    } catch (error) {
      res.status(500).json({errror:"Internal Server Error", msg: err.message});
    }
+   
 })
 
 
