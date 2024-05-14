@@ -1,3 +1,5 @@
 #Ignore node_Module ddirectory
 
 node_modules/
+
+.env
